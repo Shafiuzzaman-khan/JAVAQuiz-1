@@ -1,0 +1,53 @@
+package Labquiz;
+
+public class demo {
+		
+	public static void main(String[] args) {
+		
+		main ob1 = new main();
+		main ob2 = new main();
+		main ob3 = new main();
+
+		ob1.name = "Jalal Uddin";
+		ob1.male = "male";
+		ob1.prof = "lecturer";
+		ob1.slot = "Fall";
+		ob1.year = 2018;
+		
+		
+		ob2.name = "Mesbah Karim";
+		ob2.male = "male";
+		ob2.prof = "professor";
+		ob2.slot = "Spring";
+		ob2.year = 2017;
+		
+
+		ob3.name = "Salma seikh";
+		ob3.male = "female";
+		ob3.prof = "Lecturer";
+		ob3.slot = "Summer";
+		ob3.year = 2018;
+		
+		System.out.println(ob1.name+" "+ob1.male+" "+ob1.prof+" joined in "+ob1.slot+" "+ob1.year);
+		System.out.println(ob2.name+" "+ob2.male+" "+ob2.prof+" joined in "+ob2.slot+" "+ob2.year);
+		System.out.println(ob3.name+" "+ob3.male+" "+ob3.prof+" joined in "+ob3.slot+" "+ob3.year);
+		
+		
+	}
+}
+
+
+
+// main
+
+// package Labquiz;
+
+public class main {
+	
+	public String name;
+	public String male;
+	public String prof;
+	public String slot;
+	int year;
+
+}
